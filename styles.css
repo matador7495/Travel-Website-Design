@@ -15,7 +15,6 @@
   --bg-color: #faf8ed;
   --main-color: #f66f4d;
   --other-color: #5b5f62;
-
   --h1-font: 5.3rem;
   --h2-font: 3.6rem;
   --p-font: 1rem;
@@ -76,4 +75,78 @@ header {
   cursor: pointer;
   margin-left: 15px;
   display: none;
+}
+section {
+  padding: 70px 15% 60px;
+}
+.home {
+  position: relative;
+  height: 95vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+.home-text h1 {
+  font-family: "Sen", sans-serif;
+  font-size: var(--h1-font);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+.home-text p {
+  width: 100%;
+  max-width: 480px;
+  font-size: var(--p-font);
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--other-color);
+  margin-bottom: 40px;
+}
+.btn {
+  display: inline-block;
+  padding: 13px 38px;
+  background: var(--main-color);
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: all ease 0.5s;
+}
+.btn:hover {
+  border: 2px solid #2d3134;
+  background-color: transparent;
+  color: #2d3134;
+}
+.btn2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--main-color);
+  margin-left: 30px;
+}
+.btn2 span i {
+  height: 55px;
+  width: 55px;
+  font-size: 28px;
+  background-color: var(--main-color);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 2px solid transparent;
+  transition: all ease 0.5s;
+}
+.btn2 span i:hover {
+  border: 2px solid #2d3134;
+  background-color: transparent;
+  color: #2d3134;
+}
+.home-img img {
+  width: 100%;
+  height: auto;
 }
