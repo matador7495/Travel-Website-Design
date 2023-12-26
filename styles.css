@@ -302,3 +302,72 @@ header.sticky {
   transform: scale(1.01) translateY(-5px);
   cursor: pointer;
 }
+.testimonial {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+.testimonial-img img {
+  width: 100%;
+  height: auto;
+}
+.testimonial-text h2 {
+  font-family: "Sen", sans-serif;
+  font-size: var(--h2-font);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.tst-in {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+.tst-in p {
+  font-size: var(--p-font);
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--other-color);
+  margin-bottom: 20px;
+}
+.tst-star {
+  margin-bottom: 20px;
+}
+.tst-star i {
+  margin-right: 5px;
+  font-size: 25px;
+  color: #ffc14b;
+}
+.tst-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tst-main h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.tst-main h6 {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--other-color);
+}
+.tst-icon i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: var(--text-color);
+  color: #fff;
+  font-size: 22px;
+  border-radius: 50%;
+  transition: all ease 0.5s;
+}
+.tst-icon i:hover {
+  background: var(--main-color);
+  transform: rotate3d(0, 0, 1, 90deg) scale(1.1);
+  cursor: pointer;
+}
