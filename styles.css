@@ -20,3 +20,60 @@
   --h2-font: 3.6rem;
   --p-font: 1rem;
 }
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 30px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all ease 0.5s;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.navlist {
+  display: flex;
+}
+.navlist a {
+  margin: 16px 25px;
+  font-size: var(--p-font);
+  font-weight: 500;
+  color: var(--text-color);
+  transition: all ease 0.5s;
+}
+.navlist a:hover {
+  color: var(--main-color);
+}
+.h-right {
+  display: flex;
+  align-items: center;
+}
+.h-btn {
+  display: inline-block;
+  padding: 10px 26px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 2px solid var(--main-color);
+  border-radius: 30px;
+  color: var(--main-color);
+  transition: all ease 0.5s;
+}
+.h-btn:hover {
+  transform: translateY(-4px);
+}
+#menu-icon {
+  font-size: 38px;
+  z-index: 10001;
+  cursor: pointer;
+  margin-left: 15px;
+  display: none;
+}
