@@ -229,3 +229,76 @@ header.sticky {
   font-weight: 400;
   line-height: 1.4;
 }
+.center-text h2 {
+  font-family: "Sen", sans-serif;
+  font-size: var(--h2-font);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.center-text p {
+  width: 100%;
+  max-width: 400px;
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--other-color);
+}
+.destination-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3.5rem;
+}
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.box {
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  transition: all ease 0.5s;
+}
+.box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.box h6 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.box-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.box-text h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.bxx-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #2d3134;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  transition: all ease 0.5s;
+}
+.bxx-btn:hover {
+  background-color: transparent;
+  border: 1px solid #2d3134;
+  color: #2d3134;
+}
+.box:hover {
+  transform: scale(1.01) translateY(-5px);
+  cursor: pointer;
+}
