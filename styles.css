@@ -16,7 +16,7 @@
   --main-color: #f66f4d;
   --other-color: #5b5f62;
   --h1-font: 5.3rem;
-  --h2-font: 3.6rem;
+  --h2-font: 3.1rem;
   --p-font: 1rem;
 }
 body {
@@ -431,4 +431,64 @@ form {
 }
 .book-btn:hover {
   background-color: var(--main-color);
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 25px;
+}
+.footer-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-box img {
+  margin-bottom: 5px;
+}
+.footer-box p {
+  font-size: var(--p-font);
+  font-weight: 400;
+  color: var(--other-color);
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+.social-link i {
+  display: inline-block;
+  font-size: 20px;
+  color: var(--main-color);
+  margin-right: 12px;
+  transition: all ease 0.5s;
+}
+.social-link i:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+.footer-box a {
+  font-size: var(--p-font);
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: var(--other-color);
+  transition: all ease 0.5s;
+}
+.footer-box h3 {
+  margin-bottom: 22px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-box a:hover {
+  transform: translateX(-5px);
+  color: var(--main-color);
+}
+.end-content {
+  padding: 20px 15%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.end-text p {
+  font-size: 15px;
+}
+.end-img img {
+  width: 100%;
+  height: auto;
 }
